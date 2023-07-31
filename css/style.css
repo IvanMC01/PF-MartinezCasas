@@ -1,0 +1,88 @@
+li {
+    display: inline-block;
+}
+
+.imgFondo {
+    background-image: url("/html/img/empanada-caprese01_4d98a92e-ad9b-40cf-a9a2-acc23702ad6c.webp");
+    background-position: center;
+    background-size: cover;
+}
+
+h2 {
+    display: inline-block;
+    margin: 1rem;
+}
+
+h3  { 
+   text-align: center;
+   font-family: 'Ysabeau';
+   font-weight: bolder;
+   font-size: 45px;
+
+}
+
+.logo {
+    display: flex;
+    margin: 1rem;
+    align-self: center;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.simbf {
+    width: 10rem;
+    height: 10rem;
+    margin: 1.6rem;
+    display: inline-block;
+}
+
+.simbi {
+    width: 12rem;
+    height: 10rem;
+    display: inline-block;
+}
+
+
+.fin {
+    display: inline-block;
+}
+
+
+.footerContactos {
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+.header {
+ border-bottom: 1px solid black;
+}
+
+.imagen {
+    max-width: 2rem;
+    max-height: 2rem;
+}
+
+.TituloProductos {
+    background-color: #c1101a;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    padding: 1rem;
+}
+
+.colorBtn {
+    background-color: #c1101a;
+    color: #fff;
+    font-weight: bold;
+
+}
+
+.colorBtn:hover {
+    background-color: #811a1f;
+    color: #fff;
+ font-weight: bolder;
+}
