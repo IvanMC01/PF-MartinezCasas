@@ -2,24 +2,12 @@ li {
     display: inline-block;
 }
 
-.imgFondo {
-    background-image: url("/html/img/empanada-caprese01_4d98a92e-ad9b-40cf-a9a2-acc23702ad6c.webp");
-    background-position: center;
-    background-size: cover;
-}
 
 h2 {
     display: inline-block;
     margin: 1rem;
 }
 
-h3  { 
-   text-align: center;
-   font-family: 'Ysabeau';
-   font-weight: bolder;
-   font-size: 45px;
-
-}
 
 .logo {
     display: flex;
@@ -29,6 +17,9 @@ h3  {
 
 .titulo {
     text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
 }
 
 .simbf {
@@ -58,6 +49,7 @@ h3  {
 
 .header {
  border-bottom: 1px solid black;
+ margin-bottom: 1px;
 }
 
 .imagen {
@@ -85,4 +77,37 @@ h3  {
     background-color: #811a1f;
     color: #fff;
  font-weight: bolder;
+}
+
+.imagen {
+    max-width: 50rem;
+    max-height: 20rem;
+}
+.footerText {
+   text-align: right;
+}
+
+.tiUno {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.tiDos {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.tiTres {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.textInput {
+    text-align: right;
+    margin-right: 2rem;
+}
+
+.tarj {
+    height: 40rem;
+    width: 20rem;
 }
