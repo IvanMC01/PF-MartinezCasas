@@ -5,9 +5,9 @@
 }
 
 .footerText {
-    text-align: right;
+    justify-content: end;
     font-style: italic;
-    display: inline-block;
+    display: flex;
  
 }
 
