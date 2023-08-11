@@ -1,13 +1,22 @@
 .footerContactos {
     text-align: center;
     text-transform: uppercase;
-    
+    justify-content: end;
+
 }
 
 .footerText {
     justify-content: end;
     font-style: italic;
     display: flex;
- 
+
+
 }
 
+.footerFin {
+    background-color: #ff3d3d;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,29 +1,48 @@
 .flexbox-container {
     display: flex;
     justify-content: space-around;
-    align-content: flex-start ;
+    align-content: flex-start;
     flex-direction: row;
-   
 }
 
 .flexboxContainer {
     flex-direction: column;
 }
 
-.tiUno {
-    
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        "input1 pedido"
+        "input2 pedido"
+        "input3 pedido";
+    column-gap: 50rem;
+    row-gap: 0.5px;
+    align-items: start;
+    justify-content: space-between;
+    margin-top: 2rem;
 
 }
 
-.tiDos {
-    
+.grid-item1 {
+    grid-area: input1;
 }
 
-.tiTres {
-    
-
+.grid-item2 {
+    grid-area: input2;
 }
-.textInput {
-    text-align: right;
-    margin-right: 2rem;
+
+.grid-item3 {
+    grid-area: input3;
+}
+
+.grid-item4 {
+    grid-area: pedido;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+
 }
