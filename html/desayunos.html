@@ -6,32 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bomba de Sabores</title>
     <link rel="shortcut icon" href="../img/logo-bomba_x60.webp" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
 </head>
+<!-- HEADER -->
 
 <body class="container-fluid">
-    <header>
+    <header class="header">
+        <h1 class="titulo">Desayunos para sorprender a la gente!</h1>
         <a href="../html/productos.html" class="back">Volver</a>
     </header>
 
+    <!-- DESAYUNO -->
+    <h3>Contenido del desayuno:</h3>
+    <section class="gridContainer">
+        <ul class="gridItem1">
+            <li>Sobre de café capuccino</li>
+            <li>Saquito de té</li>
+            <li>Leche</li>
+            <li>Jugo de naranja exprimido</li>
+            <li>6 cañoncitos de dulce de leche</li>
+            <li>3 alfajorcitos de chocolate</li>
+            <li>3 fosforitos de jamón y queso</li>
+            <li>1 mini torta para soplar las velitas, con velita.</li>
+        </ul>
 
-    <h2>Desayunos para sorprender a la gente!</h2>
+        <div class="card gridItem2" data-aos="flip-right">
+            <img src="../img/desayuno.webp" class="card-img-top imagen" alt="Desayuno">
+            <div class="card-body" data-aos="flip-right">
+                <h4 class="card-title">Desayuno</h4>
+                <p class="card-text">Un delicioso desayuno para comenzar tu día!</p>
+                <a href="../html/contactos.html" class="btn colorBtn animBtn">Pedinos!</a>
+            </div>
+        </div>
 
-    <h3>Contenido del desayuno</h3>
-    <ul>
-        <li>Sobre de café capuccino</li>
-        <li>Saquito de té</li>
-        <li>Leche</li>
-        <li>Jugo de naranja exprimido</li>
-        <li>6 cañoncitos de dulce de leche</li>
-        <li>3 alfajorcitos de chocolate</li>
-        <li>3 fosforitos de jamón y queso</li>
-        <li>1 mini torta para soplar las velitas, con velita.</li>
-    </ul>
-    <img src="../img/desayuno.webp" alt="Desayuno">
+    </section>
 
+
+    <!-- FOOTER -->
     <footer>
         <div class="card">
 
@@ -43,7 +57,11 @@
             </div>
         </div>
     </footer>
-
+    <!-- SCRIPTS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
         crossorigin="anonymous"></script>

@@ -46,3 +46,22 @@
     align-items: stretch;
 
 }
+
+.gridContainer {
+    display: grid;
+    grid-template-areas:
+        "contenido foto";
+    column-gap: 50rem;
+    row-gap: 0.5px;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.gridItem1 {
+    grid-area: contenido;
+}
+
+.gridItem2 {
+    grid-area: foto;
+}
