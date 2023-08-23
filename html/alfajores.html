@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bomba de sabores</title>
+    <title>Alfajores - Bomba de sabores</title>
+    <meta name="description" content="bomba de sabores, la mejor comida argentina alrededor del mundo">
+    <meta name="keywords" content="COMIDA ARGENTINA, EMPANADAS, TORTAS, MEDIALUNAS">
     <link rel="shortcut icon" href="../img/logo-bomba_x60.webp" type="image/x-icon">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -13,23 +15,55 @@
 </head>
 
 <body class="container-fluid">
-    <!-- HEADER -->
+    <!-- HEADER titulo y navbar-->
     <header class="header">
-        <h1 class="titulo">Nuestros alfajores</h1>
-        <a href="../html/productos.html" class="back">Volver</a>
+        <h1 class="tituloProductos">Nuestros alfajores</h1>
+        <!-- NAVBAR con el resto de paginas, sus respectivos links y menu hamburgesa-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img class="logo" src="../img/logo-bomba_x60.webp"
+                        alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactos.html">Contactos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
     </header>
-    <p class="tituloAlfajores">Bienvenidos a nuestra pastelería, aquí van a encontrar los mejores dulces para acompañar sus merienas o desayunos (vienen en media docena o en una docena completa).</p>
-    <!-- PRODUCTOS -->
+    <p class="tituloAlfajores">Bienvenidos a nuestra pastelería, aquí van a encontrar los mejores dulces para acompañar
+        sus merienas o desayunos (vienen en media docena o en una docena completa).</p>
+    <!-- PRODUCTOS diferentes tipos de productos de la seccion de alfajores -->
+    <main>
         <section>
             <div class="flexbox-container">
                 <div class="row" style="justify-content: space-around;">
                     <div class="col-xl-2 col-md-4 col-sm-8 flexboxItem tarj1 ">
                         <div class="card" data-aos="flip-right">
-                            <img src="../img/alfajoresdulcedeleche04_720x.jpg" class="card-img-top imagen" alt="Alfajores">
-                            <div class="card-body" >
+                            <img src="../img/alfajoresdulcedeleche04_720x.jpg" class="card-img-top imagen"
+                                alt="Alfajores">
+                            <div class="card-body">
                                 <h4 class="card-title">Alfajores</h4>
                                 <p class="card-text">Alfajores x media docena (con opcion gluten free)</p>
-                                <a href="/html/tortas.html" class="btn colorBtn animBtn">Pedinos!</a>
+                                <a href="/html/contactos.html" class="btn colorBtn animBtn">Pedinos!</a>
                             </div>
                         </div>
                     </div>
@@ -40,7 +74,7 @@
                             <div class="card-body">
                                 <h4 class="card-title">Bombitas</h4>
                                 <p class="card-text">Bombitas x docena</p>
-                                <a href="/html/empanadas.html" class="btn colorBtn">Pedinos!</a>
+                                <a href="/html/contactos.html" class="btn colorBtn">Pedinos!</a>
                             </div>
                         </div>
                     </div>
@@ -51,26 +85,28 @@
                             <div class="card-body">
                                 <h4 class="card-title"> Medialunas </h4>
                                 <p class="card-text">Medialunas x media docena</p>
-                                <a href="/html/alfajores.html" class="btn colorBtn">Pedinos!</a>
+                                <a href="/html/contactos.html" class="btn colorBtn">Pedinos!</a>
                             </div>
                         </div>
                     </div>
         </section>
-
-        <section class="pasos animacion">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, dolore! Dolores, officia, numquam, aut consequuntur tempore amet aliquid veniam dignissimos id animi possimus perspiciatis fugit! Vitae quia laudantium est molestias?</p>
-        </section>
-    <!-- FOOTER -->
+    </main>
+    <!-- pequeña descripccion de los productos -->
+    <section class="pasos animacion">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, dolore! Dolores, officia, numquam, aut
+            consequuntur tempore amet aliquid veniam dignissimos id animi possimus perspiciatis fugit! Vitae quia
+            laudantium est molestias?</p>
+    </section>
+    <!-- FOOTER footer con un boton para mandarnos al contacto y el "todos los derechos reservados" -->
     <footer>
         <div class="card">
             <div class="card-body">
-                <h5 class="card-text">Te decidiste?</h5>
                 <a href="contactos.html" class="btn colorBtn">Pedinos!</a>
                 <p class="card-text footerText">Bomba de sabores todos los derechos reservados.</p>
             </div>
         </div>
     </footer>
-    <!-- SCRIPTS -->
+    <!-- SCRIPTS scripts pertenecientes a las animaciones (AOS) y a boostrap-->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();

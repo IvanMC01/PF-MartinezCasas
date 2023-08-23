@@ -5,18 +5,32 @@
 
 }
 
-.footerText {
-    justify-content: end;
-    font-style: italic;
-    display: flex;
 
 
-}
+footer {
+    .footerContactos {
+        text-align: center;
+        text-transform: uppercase;
+        justify-content: end;
 
-.footerFin {
-    background-color: #ff3d3d;
-    color: #fff;
-    text-align: center;
-    padding: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .footerText {
+        justify-content: end;
+        font-style: italic;
+        display: flex;
+    }
+
+    .simbf {
+        width: 10rem;
+        height: 10rem;
+        margin: 1.6rem;
+        display: inline-block;
+    }
+
+    .simbi {
+        width: 12rem;
+        height: 10rem;
+        display: inline-block;
+    }
 }

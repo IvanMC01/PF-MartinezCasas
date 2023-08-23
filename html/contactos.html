@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bomba de Sabores</title>
+    <title>Contacto - Bomba de Sabores</title>
+    <meta name="description" content="bomba de sabores, la mejor comida argentina alrededor del mundo">
+    <meta name="keywords" content="COMIDA ARGENTINA, EMPANADAS, TORTAS, MEDIALUNAS">
     <link rel="shortcut icon" href="../img/logo-bomba_x60.webp" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
@@ -13,9 +15,10 @@
 </head>
 
 <body class="container-fluid">
-    <!-- HEADER -->
+    <!-- HEADER con titulo y su navbar-->
     <header class="header">
-        <!-- NAVBAR -->
+        <h1 class="tituloProductos">Todo listo?</h1>
+        <!-- NAVBAR con el resto de paginas y sus respectivos links-->
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
                 <a class="navbar-brand" href="../index.html"><img class="logo" src="../img/logo-bomba_x60.webp"
@@ -24,7 +27,7 @@
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <h1 class="titulo">Todo listo?</h1>
+
 
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
@@ -46,46 +49,34 @@
         </nav>
 
     </header>
-    <!-- PEDIDO -->
-    </header>
+    <!-- PEDIDO informacion de contacto y su pedido -->
+
     <h2 class="tituloProductos">Contactanos</h2>
-    <form class="container-fluid">
 
-        <section class="grid-container">
-            <div class="grid-item1">
-                <label for="nombre">Nombre completo:</label>
-                <input type="text" id="nombre">
+    <section>
+        <form>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Ingrese su pedido.</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Pedido"
+                    rows="3"></textarea>
             </div>
 
-            <div class="grid-item2">
-                <label for="Teléfono">Teléfono:</label>
-                <input type="text" id="Teléfono">
+            <div>
+                <input class="btn colorBtn" type="submit">
+                <input class="btn colorBtn" type="reset">
             </div>
+        </form>
+    </section>
 
-            <div class="grid-item3">
-                <label for="Correo electronico">Correo electronico:</label>
-                <input type="email" id="Correo electronico">
-            </div>
-
-            <div class="grid-item4">
-                <div>
-                    <textarea name="" id="" cols="70" rows="10" placeholder="ingrese su pedido"></textarea>
-                </div>
-
-                <div>
-                    <input class="btn colorBtn" type="submit">
-                    <input class="btn colorBtn" type="reset">
-                </div>
-
-            </div>
-        </section>
-
-    </form>
-    <!-- FOOTER -->
+    <!-- FOOTER footer con los contactos a las redes sociales y el "todos los derechos reservados"-->
     <footer class="footerContactos">
 
         <h4>Seguinos en nuestras redes!</h4>
-        <div class="fin">
+        <div>
             <a href="https://www.instagram.com/bomba.sabores/?hl=es"><img class="simbi"
                     src="../img/instagram-social-media-icon-symbol-element-illustration-free-vector.jpg"
                     alt="Instagram"></a>
@@ -98,12 +89,10 @@
         </div>
 
     </footer>
-    <!-- SCRIPTS -->
+    <!-- SCRIPTS script perteneciente a boostrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
         crossorigin="anonymous"></script>
 </body>
-
-
 
 </html>

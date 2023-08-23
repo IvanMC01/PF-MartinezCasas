@@ -1,26 +1,40 @@
 .header {
   border-bottom: 1px solid #ff3d3d;
 }
+.header .tituloProductos {
+  background-color: #ff3d3d;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header .tituloProductos .logo {
+  display: inline-block;
+  margin: 1rem;
+}
 
-.colorBtn {
+body .presentacion {
+  text-transform: uppercase;
+  text-align: center;
+}
+body .card {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+body .colorBtn {
   background-color: #fff;
   color: #c1101a;
   font-weight: bold;
   transition: all 0.25s;
 }
-
-.colorBtn:hover {
+body .colorBtn:hover {
   background-color: #811a1f;
   color: #fff;
   font-weight: bolder;
 }
-
-.back {
-  color: black;
-  border-bottom: none;
-}
-
-.btn {
+body .btn {
   display: inline-block;
 }
 
@@ -36,7 +50,7 @@
 }
 
 .grid-container {
-  display: grid;
+  display: flex;
   grid-template-areas: "input1 pedido" "input2 pedido" "input3 pedido";
   column-gap: 50rem;
   row-gap: 0.5px;
@@ -46,18 +60,22 @@
 }
 
 .grid-item1 {
+  display: flex;
   grid-area: input1;
 }
 
 .grid-item2 {
+  display: flex;
   grid-area: input2;
 }
 
 .grid-item3 {
+  display: flex;
   grid-area: input3;
 }
 
 .grid-item4 {
+  display: flex;
   grid-area: pedido;
 }
 
@@ -86,6 +104,23 @@
   grid-area: foto;
 }
 
+main .parrafo {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  font-style: italic;
+}
+main .tituloProductos {
+  background-color: #ff3d3d;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 @keyframes animacion {
   0% {
     opacity: 0%;
@@ -107,53 +142,6 @@
   border-radius: 5px;
 }
 
-.simbf {
-  width: 10rem;
-  height: 10rem;
-  margin: 1.6rem;
-  display: inline-block;
-}
-
-.simbi {
-  width: 12rem;
-  height: 10rem;
-  display: inline-block;
-}
-
-.logo {
-  display: inline-block;
-  margin: 1rem;
-}
-
-.titulo {
-  text-align: center;
-  text-transform: uppercase;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.tituloProductos {
-  background-color: #ff3d3d;
-  color: #fff;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: bold;
-  padding: 1rem;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.presentacion {
-  text-transform: uppercase;
-  text-align: center;
-}
-
-.parrafo {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-  font-weight: bold;
-  font-style: italic;
-}
-
 .intro {
   text-align: center;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -169,53 +157,32 @@
   font-style: italic;
 }
 
-.card {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-.lista {
-  margin: none;
-}
-
-.tiUno {
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-}
-
-.tiDos {
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-}
-
-.tiTres {
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-}
-
-.textInput {
-  text-align: right;
-  margin-right: 2rem;
-}
-
 .footerContactos {
   text-align: center;
   text-transform: uppercase;
   justify-content: end;
 }
 
-.footerText {
+footer .footerContactos {
+  text-align: center;
+  text-transform: uppercase;
+  justify-content: end;
+}
+footer .footerText {
   justify-content: end;
   font-style: italic;
   display: flex;
 }
-
-.footerFin {
-  background-color: #ff3d3d;
-  color: #fff;
-  text-align: center;
-  padding: 1rem;
-  font-family: Arial, Helvetica, sans-serif;
+footer .simbf {
+  width: 10rem;
+  height: 10rem;
+  margin: 1.6rem;
+  display: inline-block;
+}
+footer .simbi {
+  width: 12rem;
+  height: 10rem;
+  display: inline-block;
 }
 
 /*# sourceMappingURL=style.css.map */

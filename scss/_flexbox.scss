@@ -10,7 +10,7 @@
 }
 
 .grid-container {
-    display: grid;
+    display: flex;
     grid-template-areas:
         "input1 pedido"
         "input2 pedido"
@@ -24,18 +24,22 @@
 }
 
 .grid-item1 {
+    display: flex;
     grid-area: input1;
 }
 
 .grid-item2 {
+    display: flex;
     grid-area: input2;
 }
 
 .grid-item3 {
+    display: flex;
     grid-area: input3;
 }
 
 .grid-item4 {
+    display: flex;
     grid-area: pedido;
 }
 
@@ -65,3 +69,4 @@
 .gridItem2 {
     grid-area: foto;
 }
+
