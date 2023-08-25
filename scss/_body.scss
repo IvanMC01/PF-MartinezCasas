@@ -11,14 +11,14 @@ body {
 	}
 
 	.colorBtn {
-		background-color: #fff;
-		color: #c1101a;
+		background-color: $contrastcolor;
+		color: $color;
 		font-weight: bold;
 		transition: all 0.25s;
 
 		&:hover {
-			background-color: #811a1f;
-			color: #fff;
+			background-color: $hovercolor;
+			color: $contrastcolor;
 			font-weight: bolder;
 		}
 	}
@@ -27,5 +27,12 @@ body {
 		display: inline-block;
 	}
 
+	.tituloAlfajores {
+		text-align: center;
+		font-family: $mainfamily;
+		margin: 1.5rem;
+		font-weight: bold;
+		font-style: $mainstyle;
+	}
 
 }

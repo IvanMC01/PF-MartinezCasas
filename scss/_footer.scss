@@ -5,8 +5,6 @@
 
 }
 
-
-
 footer {
     .footerContactos {
         text-align: center;
@@ -17,7 +15,7 @@ footer {
 
     .footerText {
         justify-content: end;
-        font-style: italic;
+        font-style: $mainstyle;
         display: flex;
     }
 

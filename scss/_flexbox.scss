@@ -9,64 +9,20 @@
     flex-direction: column;
 }
 
-.grid-container {
-    display: flex;
-    grid-template-areas:
-        "input1 pedido"
-        "input2 pedido"
-        "input3 pedido";
-    column-gap: 50rem;
-    row-gap: 0.5px;
-    align-items: start;
-    justify-content: space-between;
-    margin-top: 2rem;
-
-}
-
-.grid-item1 {
-    display: flex;
-    grid-area: input1;
-}
-
-.grid-item2 {
-    display: flex;
-    grid-area: input2;
-}
-
-.grid-item3 {
-    display: flex;
-    grid-area: input3;
-}
-
-.grid-item4 {
-    display: flex;
-    grid-area: pedido;
-}
-
-.flex-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: stretch;
-
-}
 
 .gridContainer {
-    display: grid;
-    grid-template-areas:
-        "contenido foto";
-    column-gap: 50rem;
-    row-gap: 0.5px;
-    align-items: center;
-    justify-content: space-around;
-    margin-top: 2rem;
-}
-
-.gridItem1 {
-    grid-area: contenido;
-}
-
-.gridItem2 {
-    grid-area: foto;
+	display: grid;
+	grid-template-areas: "contenido foto";
+	column-gap: 50rem;
+	row-gap: 0.5px;
+	align-items: center;
+	justify-content: space-around;
+	margin-top: 2rem;
+	&.gridItem1 {
+		grid-area: contenido;
+	}
+	&.gridItem2 {
+		grid-area: foto;
+	}
 }
 

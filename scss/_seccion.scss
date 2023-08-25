@@ -1,6 +1,28 @@
-
 .pasos {
     border: 2px solid black;
     display: inline-block;
     border-radius: 5px;
+}
+
+section {
+    .intro {
+        text-align: center;
+        font-family: $mainfamily;
+        font-weight: bold;
+        font-style: $mainstyle;
+    }
+
+    .colorPlh {
+        background-color: $contrastcolor;
+        color: black;
+        font-weight: bold;
+        transition: all 0.25s;
+
+        &:hover {
+            background-color: #fa9797;
+            color: black;
+            font-weight: bolder;
+        }
+    }
+
 }
