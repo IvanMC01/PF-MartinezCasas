@@ -1,6 +1,17 @@
 .header {
   border-bottom: 1px solid #ff3d3d;
 }
+.header .anim {
+  background-color: #fff;
+  color: black;
+}
+.header .anim:hover {
+  color: #fff;
+  background-color: #c1101a;
+  border-radius: 10px;
+  transform: translateY(-10px);
+  transition: 0.7s;
+}
 .header .tituloProductos {
   background-color: #ff3d3d;
   color: #fff;
@@ -27,7 +38,7 @@ body .colorBtn {
   background-color: #fff;
   color: #c1101a;
   font-weight: bold;
-  transition: all 0.25s;
+  transition: all 0.35s;
 }
 body .colorBtn:hover {
   background-color: #811a1f;
@@ -52,10 +63,6 @@ body .tituloAlfajores {
   flex-direction: row;
 }
 
-.flexboxContainer {
-  flex-direction: column;
-}
-
 .gridContainer {
   display: grid;
   grid-template-areas: "contenido foto";
@@ -78,6 +85,9 @@ main .parrafo {
   margin-bottom: 1.5rem;
   font-weight: bold;
   font-style: italic;
+  margin: 1rem;
+  font-size: medium;
+  padding: 1rem;
 }
 main .tituloProductos {
   background-color: #ff3d3d;
@@ -104,10 +114,13 @@ main .tituloProductos {
   animation-timing-function: ease-in;
 }
 
-.pasos {
+section.pasos {
   border: 2px solid black;
   display: inline-block;
   border-radius: 5px;
+  padding: 1rem;
+  align-items: center;
+  font-style: italic;
 }
 
 section .intro {
@@ -127,18 +140,22 @@ section .colorPlh:hover {
   color: black;
   font-weight: bolder;
 }
+section .tituloProductos {
+  background-color: #ff3d3d;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-.footerContactos {
+footer.footerContactos {
   text-align: center;
   text-transform: uppercase;
   justify-content: end;
 }
 
-footer .footerContactos {
-  text-align: center;
-  text-transform: uppercase;
-  justify-content: end;
-}
 footer .footerText {
   justify-content: end;
   font-style: italic;

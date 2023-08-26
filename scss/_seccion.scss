@@ -1,7 +1,10 @@
-.pasos {
+section.pasos {
     border: 2px solid black;
     display: inline-block;
     border-radius: 5px;
+    padding: 1rem;
+    align-items: center;
+    font-style: $mainstyle;
 }
 
 section {
@@ -23,6 +26,15 @@ section {
             color: black;
             font-weight: bolder;
         }
+    }
+    .tituloProductos {
+		background-color: $backcolor;
+		color: $contrastcolor;
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: bold;
+		padding: 1rem;
+		font-family: Arial, Helvetica, sans-serif;
     }
 
 }

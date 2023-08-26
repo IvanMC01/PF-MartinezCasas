@@ -2,7 +2,7 @@ body {
 
 	.presentacion {
 		text-transform: uppercase;
-		text-align: center;
+		text-align: center; 
 	}
 
 	.card {
@@ -14,7 +14,7 @@ body {
 		background-color: $contrastcolor;
 		color: $color;
 		font-weight: bold;
-		transition: all 0.25s;
+		transition: all 0.35s;
 
 		&:hover {
 			background-color: $hovercolor;
